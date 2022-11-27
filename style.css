@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  border: 1px solid #4c4c4c;
+  border-radius: 15px;
+  webkit-box-shadow: 7px 10px 29px -15px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 10px 29px -15px rgba(0,0,0,0.75);
+  box-shadow: 7px 10px 29px -15px rgba(0,0,0,0.75);
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  background: #5c69be;
+  max-width: 450px;
+  color: #fff;
+  border-radius: 15px 0 0 15px;
+}
+aside header {
+  text-align: center;
+}
+.aside-section-info {
+  padding: 10px;
+}
+aside h3 {
+  background: #011774;
+  text-align: center;
+}
+aside section div {
+  padding: 5px 15px;
+}
+aside section ul li {
+  padding-top: 10px;
+}
+main {
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 5px 15px;
+}
+.main-title {
+  padding: 8px 0;
+  border-top: 2px solid #4c4c4c;
+  border-bottom: 2px solid #4c4c4c;
+  color: #fff;
+  background-color: #b0b0b0;
+  text-align: center;
+}
+.date-info {
+  width: 150px;
+  vertical-align: top;
+}
+#main-info {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px 25px;
+}
+main table {
+  border-collapse: collapse;
+  width: 100%;
+}
+main table tbody {
+  border-collapse: collapse;
+  width: 100%;
+}
+main table td {
+  padding-top: 15px;
+}
+main #experience table tr:nth-child(2) td {
+  padding-top: 15px;
+  border-top: 2px solid #4c4c4c;
+}
+main table td > h3 {
+    margin-top: 0;
+}
+.skills-info {
+  text-decoration: underline;
+  color: #c7c6c6;
+} 
